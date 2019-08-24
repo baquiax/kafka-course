@@ -29,3 +29,13 @@ After that you need to open a new terminal and start the `broker`
 ```
 
 And at this point you'll have a up and running Kakfa service.
+
+## Exploring
+
+This course has coded written in `Java`(`JDK 8`), so to test it you need to have installed the `JDK`.
+
+You can run the `ProducerDemo.java` app and run a console consumer to show what happen.
+
+```
+./kafka_2.12-2.3.0/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic <topic>
+```
